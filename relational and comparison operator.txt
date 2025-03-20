@@ -1,0 +1,79 @@
+relational and comparison operator:
+>,<,>=,<=,==,!=,===(identical)
+relational or comparison operator return a Boolean value
+
+difference between the == and ===
+=== additionally checks the data type and condition
+let a=10;
+let b='10';
+console.log(a==b);=>True
+console.log(a===b);=>False
+
+logical operator:
+=>and(both the condition are true){0,0=>0;0,1=>0;1,0=>0;1,1=>1;}
+=>or(any one condition is true)
+=>not
+
+Assignment operator:
++=,-=,*=,/=,%=
+
+
+a+=b=>a=a+b
+
+Unary operator:
+=>++
+=>--
+which just works with a single variable;
+
+ex: a++,a--=> a=a+1,a=-1
+
+ternary operator:
+
+? :
+condition? instruction to be executed : else instruction 
+
+
+
+
+Loops 
+Entry control loop -for, while
+Exit control loop - do while
+
+
+for syntax:
+for(initialization ; condition; increment;){
+}
+ex:
+for(let i=1;i<=10;i++){
+statement to be executed}
+
+
+while Loop: 
+
+initialization ,declaration;
+while(condition){
+statements to be executed}
+
+Do while loop:
+let I =10
+
+
+Two types of functions:
+=>user defined functions:(4 Types)
+-no argument no return
+-no argument with return
+-with argument no return
+-with argument with return 
+
+
+
+=>predefined fucntions(array,objects,math,string,datatype)
+
+
+TODO List using array functions
+
+push array method (predefined){to add a element in the end of an array}
+
+
+forEach-for loop to access the each element in a array
+
